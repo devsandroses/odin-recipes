@@ -1,3 +1,3 @@
 # odin-recipes
 This project will demonstrate that I can build a basic recipe website showing my ability to write links, images, lists and different HTML texts. 
-Self reflection at the end of the project:
+Self reflection at the end of the project: I did it! I diligently paid close and careful attention to what I was doing! I persisted even though I made errors and has to start over. It look me hours to complete this over the course of several days. But I did it and am so happy with the skills and knowledge I gained!
