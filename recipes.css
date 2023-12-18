@@ -1,20 +1,32 @@
 .Banana {
-background-color: yellow; color: black; 
+background-color: white; color: black; display: block;
+margin: auto; border: solid yellow 40px; padding: 50px
+width: fit-content; 
 }
 
 .Tomato {
-background-color: red; color: white; 
+background-color: white; color: black; display: inline-block; 
+margin: 100px; margin-top: 20px; border: solid red 40px; padding: 50px; float: right;
 }
 
 #guacamole {
-    background-color: green; 
+    background-color: white; color: black; display: inline-block;
+    margin: 140px; margin-top: 20px; border: solid green 40px; padding: 50px; float: center;
 }
 
 .header {
-text-align: center; color: hotpink
+text-align: center; color: rgb(165, 14, 165); font-family: 'Times New Roman', Times, serif;
+font-size: 20px; margin: auto; display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
 }
 
 .Banana .Tomato #guacamole {
 font-size: 30px; font-family: 'Times New Roman', Times, serif; font-weight: 300;
 }
-
+ 
+.block {
+    display: inline-block; margin: 20px; padding-top: 20px; padding-bottom: 20px; padding-left: 20px;
+    padding-right: 20px; background-color: rgb(185, 58, 111); color: blue; text-align: center;
+}
