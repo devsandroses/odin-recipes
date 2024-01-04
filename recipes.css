@@ -1,17 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px; font-family: 'Times New Roman', Times, serif; font-weight: 700;
+    color: blue;
+}
+
 .Banana {
-background-color: white; color: black; display: block;
-margin: auto; border: solid yellow 40px; padding: 50px
-width: fit-content; 
+background-color: white; color: black; display: inline-block;
+margin: 100px; margin-top: 20px; border: solid yellow 40px; padding: 50px
 }
 
 .Tomato {
 background-color: white; color: black; display: inline-block; 
-margin: 100px; margin-top: 20px; border: solid red 40px; padding: 50px; float: right;
+margin: 100px; margin-top: 20px; border: solid red 40px; padding: 50px;
 }
 
 #guacamole {
     background-color: white; color: black; display: inline-block;
-    margin: 140px; margin-top: 20px; border: solid green 40px; padding: 50px; float: center;
+    margin: 100px; margin-top: 20px; border: solid green 40px; padding: 50px;
 }
 
 .header {
@@ -20,10 +32,6 @@ font-size: 20px; margin: auto; display: block;
 margin-left: auto;
 margin-right: auto;
 width: 50%;
-}
-
-.Banana .Tomato #guacamole {
-font-size: 30px; font-family: 'Times New Roman', Times, serif; font-weight: 300;
 }
  
 .block {
